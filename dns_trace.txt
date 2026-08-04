@@ -1,0 +1,47 @@
+
+; <<>> DiG 9.10.6 <<>> +trace example.com
+;; global options: +cmd
+.			513371	IN	NS	a.root-servers.net.
+.			513371	IN	NS	b.root-servers.net.
+.			513371	IN	NS	c.root-servers.net.
+.			513371	IN	NS	d.root-servers.net.
+.			513371	IN	NS	e.root-servers.net.
+.			513371	IN	NS	f.root-servers.net.
+.			513371	IN	NS	g.root-servers.net.
+.			513371	IN	NS	h.root-servers.net.
+.			513371	IN	NS	i.root-servers.net.
+.			513371	IN	NS	j.root-servers.net.
+.			513371	IN	NS	k.root-servers.net.
+.			513371	IN	NS	l.root-servers.net.
+.			513371	IN	NS	m.root-servers.net.
+.			513371	IN	RRSIG	NS 8 0 518400 20260817050000 20260804040000 57780 . Niy9kVcbhXIcP1Q8kv8PPUuaymoezj8SXtKS8590kv+vf3C634ujDU85 X/vYnHbww1Hzo8Dhn+lPcj7z5MyF+VhsERRg/xy8BGjEV6IJAtbqLuUN r3cPXKzCd3loz5mnDCAp+/ULH/SeEqmDK0CiBn+ptVmsVcHgtLCr4VB9 o2O6Txh6Xa68x4ZUZK3JLg5p0BAPYf4UXULPM4n9D2o1oqDNxeUn5M4T KpPEQGtDH/vzZgnHB2hv5GenuR5fp3Et0eoDVD3kXZulmxlxgDP6gEUJ +BDAjfQ4siR9DEVoa8FR9Ce5LupyUrq107UAh7T1cMhOmza3jujwl/or R2p4kg==
+;; Received 525 bytes from 10.6.3.254#53(10.6.3.254) in 12 ms
+
+com.			172800	IN	NS	a.gtld-servers.net.
+com.			172800	IN	NS	b.gtld-servers.net.
+com.			172800	IN	NS	c.gtld-servers.net.
+com.			172800	IN	NS	d.gtld-servers.net.
+com.			172800	IN	NS	e.gtld-servers.net.
+com.			172800	IN	NS	f.gtld-servers.net.
+com.			172800	IN	NS	g.gtld-servers.net.
+com.			172800	IN	NS	h.gtld-servers.net.
+com.			172800	IN	NS	i.gtld-servers.net.
+com.			172800	IN	NS	j.gtld-servers.net.
+com.			172800	IN	NS	k.gtld-servers.net.
+com.			172800	IN	NS	l.gtld-servers.net.
+com.			172800	IN	NS	m.gtld-servers.net.
+com.			86400	IN	DS	19718 13 2 8ACBB0CD28F41250A80A491389424D341522D946B0DA0C0291F2D3D7 71D7805A
+com.			86400	IN	RRSIG	DS 8 1 86400 20260817050000 20260804040000 57780 . F2nFSEbjZi4JmFCaVfVqimQ3Vg8Ext2rdbeelCQK8DqkFw0hq7ED4IVX NXVpxAQuALsFArNOVi0ZBvPiGKgKrpW2+bwBm3WkF4zPz8Vy5+X7VU8H CAtqn24qbTEvGZQmUShaMtiUgDDhn1jZDnbXYp3FQxT36ophr0OCH/vu mA+2I5Vb0rUK7F2Z273hCu83WjYwGBMyKMdHcWdi2XZ6YLtdKC8yPqu7 iHpNl5CT5KiUbxWB626GYACOkmAd/l513DDBtJx2MTlv4nP238X+5Yo+ JytkKVa6W+m8O/i6OikV99Az8phnD9dqnMT9JIStElQssZnd/HEDpFCQ IEH8QQ==
+;; Received 1171 bytes from 193.0.14.129#53(k.root-servers.net) in 48 ms
+
+example.com.		172800	IN	NS	hera.ns.cloudflare.com.
+example.com.		172800	IN	NS	elliott.ns.cloudflare.com.
+example.com.		86400	IN	DS	2371 13 2 C988EC423E3880EB8DD8A46FE06CA230EE23F35B578D64E78B29C3E1 C83D245A
+example.com.		86400	IN	RRSIG	DS 13 2 86400 20260809013522 20260802002522 41446 com. z0AZg8C7sQ584pFr8cS34nnP84OEiTykSDah6a2jJdelGri9Pb4jfBN+ zxwCHCRQT4ABLDpoyzIq20nqvlFPQQ==
+;; Received 506 bytes from 192.33.14.30#53(b.gtld-servers.net) in 26 ms
+
+example.com.		300	IN	A	172.66.147.243
+example.com.		300	IN	A	104.20.23.154
+example.com.		300	IN	RRSIG	A 13 2 300 20260805101243 20260803081243 34505 example.com. nvHgTf6+HHWPnFMo2JVIRUoF4iQ7+l2g34r/HdfDekoQ3msWF+b8f4HV BWZmaD3JQ2DI6MQco5ndbm2aUxhMHQ==
+;; Received 179 bytes from 172.64.32.162#53(hera.ns.cloudflare.com) in 11 ms
+
